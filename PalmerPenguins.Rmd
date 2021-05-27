@@ -55,7 +55,7 @@ nn_dat <- penguins_tib %>%
 nn_dat %>% head()
 ```
 
-Then, we create indices for splitting the iris data into a training and a test data set. We set aside 20% of the data for testing.
+Then, we create indices for splitting the penguin data into a training and a test data set. We set aside 20% of the data for testing.
 
 ```{r}
 n <- nrow(nn_dat)
